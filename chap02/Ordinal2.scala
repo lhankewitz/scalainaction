@@ -1,4 +1,4 @@
-// Run with e.g. >scala Ordinal.scala 9 
+// Run with e.g. >scala Ordinal2.scala 9 
 // or >scala Ordinal2.scala 3
 // in chap02/
 

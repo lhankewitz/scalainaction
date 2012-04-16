@@ -6,6 +6,7 @@ import org.specs2._
 import org.specs2.mutable.Specification
 
 class AgentExampleSpecs extends Specification {
+	implicit val system = ActorSystem("AgentExampleApp")
 	
   "AgentExample" should {
     "write to the log file asynchronously" in {

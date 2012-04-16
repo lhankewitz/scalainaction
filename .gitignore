@@ -9,3 +9,11 @@
 boot
 lib_managed
 target
+.cache
+
+#ignore sbteclipse generated files
+.project
+.classpath
+.settings
+
+project_sbt07/
