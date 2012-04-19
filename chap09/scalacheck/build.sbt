@@ -9,7 +9,7 @@ scalaVersion := "2.9.1"
 resolvers += "Scala Tools Releases" at  "http://scala-tools.org/repo-releases/"
 
 libraryDependencies ++= Seq (
-  "org.scala-tools.testing" % "scalacheck_2.9.1" % "1.9" % "test"
+  "org.scalacheck" % "scalacheck_2.9.1" % "1.9" % "test"
 )
 
 
