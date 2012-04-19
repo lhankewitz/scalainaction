@@ -1,5 +1,7 @@
-Forked to support the author of Scala in Action Nilanjan Raychauhuri via Feedback and bugfixes and for sure to learn :-)
+Code for the book Scala in Action:
 
+chap09 changed dependency to scala checks in the org package.
+several moved to specs 1.9
 chap09 now moved to sbt 0.11.2 with specs2
 chap05 moved typical sbt project structure to sbt 0.11.2
 chap08 move to sbt 0.11.2. Checked the code for executability and refactored JavaScalaActors to be a standalone eclipse project which can also be run with sbt.
