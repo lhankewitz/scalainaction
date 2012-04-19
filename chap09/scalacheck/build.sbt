@@ -6,7 +6,10 @@ organization := "Scala in Action"
 
 scalaVersion := "2.9.1"
 
-resolvers += "Scala Tools Releases" at  "http://scala-tools.org/repo-releases/"
+resolvers ++= Seq(
+  //"snapshots" at "http://oss.sonatype.org/content/repositories/snapshots",
+  "releases"  at "http://oss.sonatype.org/content/repositories/releases"
+)
 
 libraryDependencies ++= Seq (
   "org.scalacheck" % "scalacheck_2.9.1" % "1.9" % "test"
