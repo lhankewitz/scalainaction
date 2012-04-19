@@ -10,7 +10,7 @@ libraryDependencies ++= Seq(
 	"org.specs2" % "specs2_2.9.1" % "1.9" % "test"
 )
 
-  //val scalaToolsSnapshots = "Scala Tools Snapshots" at  "http://scala-tools.org/repo-snapshots/"
+  //val scalaToolsSnapshots = "Sonatype repository Snapshots" at  "http://oss.sonatype.org/content/repositories/snapshots"
 
   
   //def specs2Framework = new TestFramework("org.specs2.runner.SpecsFramework")

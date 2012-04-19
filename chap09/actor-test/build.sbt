@@ -7,8 +7,8 @@ organization := "Scala in Action"
 scalaVersion := "2.9.1" 
 
 resolvers ++= Seq(
-	"Scala Tools Releases" at  "http://scala-tools.org/repo-releases/"
-	, "Scala Tools Snapshots" at  "http://scala-tools.org/repo-snapshots/"
+	"Sonatype repository Releases" at  "http://oss.sonatype.org/content/repositories/releases"
+	, "Sonatype repository Snapshots" at  "http://oss.sonatype.org/content/repositories/snapshots"
 )
 
 libraryDependencies ++= Seq(
